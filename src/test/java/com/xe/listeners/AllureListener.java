@@ -8,7 +8,6 @@ import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
-
 import com.xe.base.TestBase;
 
 
@@ -17,6 +16,8 @@ import com.xe.base.TestBase;
  *
  */
 public class AllureListener implements ITestListener {
+	
+	
 
 	private static String getTestMethodName(ITestResult iTestResult) {
 		return iTestResult.getMethod().getConstructorOrMethod().getName();
@@ -42,6 +43,7 @@ public class AllureListener implements ITestListener {
 
 	@Override
 	public void onStart(ITestContext iTestContext) {
+		System.setProperty("allure.results.directory", ".\\reports\\");
 		System.out.println("I am in onStart method " + iTestContext.getName());
 		iTestContext.setAttribute("WebDriver", TestBase.driver);
 	}

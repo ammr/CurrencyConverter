@@ -3,7 +3,20 @@
 <suite name="Failed suite [Currency Conversion Suite]" guice-stage="DEVELOPMENT">
   <listeners>
     <listener class-name="com.xe.listeners.ExtentListeners"/>
+    <listener class-name="com.xe.listeners.AllureListener"/>
   </listeners>
+  <test thread-count="5" name="Currency Conversion Test(failed)">
+    <classes>
+      <class name="com.xe.testcases.ConversionTest">
+        <methods>
+          <include name="refreshHomePage"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="currencyConverionTest" invocation-numbers="3"/>
+        </methods>
+      </class> <!-- com.xe.testcases.ConversionTest -->
+    </classes>
+  </test> <!-- Currency Conversion Test(failed) -->
   <test thread-count="5" name="Currency Conversion Test POM(failed)">
     <classes>
       <class name="com.xe.testcases.ConversionTestUsingPOM">

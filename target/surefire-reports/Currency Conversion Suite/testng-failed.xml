@@ -24,7 +24,6 @@
           <include name="tearDown"/>
           <include name="initialize"/>
           <include name="currencyConverionTest" invocation-numbers="3"/>
-          <include name="verifyConversionPageTitle"/>
           <include name="refreshHomePage"/>
         </methods>
       </class> <!-- com.xe.testcases.ConversionTestUsingPOM -->

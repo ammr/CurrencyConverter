@@ -1,5 +1,5 @@
-INFO    2024-02-01 12:03:36,718 [main] com.xe.base.TestBase  - Config properties loaded !!!
-INFO    2024-02-01 12:03:36,719 [main] com.xe.base.TestBase  - OR properties loaded !!!
-INFO    2024-02-01 12:03:38,251 [main] com.xe.base.TestBase  - Launching Chrome !!!
-INFO    2024-02-01 12:03:39,769 [main] com.xe.base.TestBase  - Navigated to : http://www.xe.com/currencyconverter/
-INFO    2024-02-01 12:04:18,139 [main] com.xe.base.TestBase  - Test Execution completed !!!
+INFO    2024-02-01 16:12:05,634 [main] com.xe.base.TestBase  - Config properties loaded !!!
+INFO    2024-02-01 16:12:05,634 [main] com.xe.base.TestBase  - OR properties loaded !!!
+INFO    2024-02-01 16:12:07,580 [main] com.xe.base.TestBase  - Launching Chrome !!!
+INFO    2024-02-01 16:12:09,124 [main] com.xe.base.TestBase  - Navigated to : http://www.xe.com/currencyconverter/
+INFO    2024-02-01 16:12:47,695 [main] com.xe.base.TestBase  - Test Execution completed !!!
