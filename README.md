@@ -1,2 +1,2 @@
 # CurrencyConverter
-This is check the currency conversion functionality
+This is to check the currency conversion functionality
