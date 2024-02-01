@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Currency Conversion Suite">
+
+
+	<listeners>
+		<listener class-name="com.xe.listeners.ExtentListeners" />
+		<listener class-name="com.xe.listeners.AllureListener" />
+	</listeners>
+
+ 
+	<test name="Currency Conversion Test">
+		<classes>
+			<class name="com.xe.testcases.ConversionTest" />
+		</classes>
+	</test> 
+	
+	 <!--  -->
+	<test name="Currency Conversion Test POM">
+		<classes>
+			<class name="com.xe.testcases.ConversionTestUsingPOM" />
+		</classes>
+	</test> 
+
+
+
+	
+
+</suite> <!-- Suite -->
